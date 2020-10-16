@@ -12,6 +12,72 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1912816115,
+        "Kind": "Components.Component",
+        "Name": "RegistroPrestamos.App",
+        "AssemblyName": "RegistroPrestamos",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "RegistroPrestamos.App"
+        }
+      },
+      {
+        "HashCode": -984938901,
+        "Kind": "Components.Component",
+        "Name": "RegistroPrestamos.App",
+        "AssemblyName": "RegistroPrestamos",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "RegistroPrestamos.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "RegistroPrestamos.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 632665573,
+        "Kind": "Components.Component",
+        "Name": "RegistroPrestamos.Pages.Index",
+        "AssemblyName": "RegistroPrestamos",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "RegistroPrestamos.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1641962976,
+        "Kind": "Components.Component",
+        "Name": "RegistroPrestamos.Pages.Index",
+        "AssemblyName": "RegistroPrestamos",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "RegistroPrestamos.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "RegistroPrestamos.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 874117306,
         "Kind": "Components.Component",
         "Name": "RegistroPrestamos.Pages.R_Moras",
@@ -61,39 +127,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "RegistroPrestamos.Pages.R_Moras",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 632665573,
-        "Kind": "Components.Component",
-        "Name": "RegistroPrestamos.Pages.Index",
-        "AssemblyName": "RegistroPrestamos",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RegistroPrestamos.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1641962976,
-        "Kind": "Components.Component",
-        "Name": "RegistroPrestamos.Pages.Index",
-        "AssemblyName": "RegistroPrestamos",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "RegistroPrestamos.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RegistroPrestamos.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -204,39 +237,6 @@
         }
       },
       {
-        "HashCode": 1912816115,
-        "Kind": "Components.Component",
-        "Name": "RegistroPrestamos.App",
-        "AssemblyName": "RegistroPrestamos",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RegistroPrestamos.App"
-        }
-      },
-      {
-        "HashCode": -984938901,
-        "Kind": "Components.Component",
-        "Name": "RegistroPrestamos.App",
-        "AssemblyName": "RegistroPrestamos",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "RegistroPrestamos.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RegistroPrestamos.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1154160484,
         "Kind": "Components.Component",
         "Name": "RegistroPrestamos.Shared.MainLayout",
@@ -329,59 +329,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "RegistroPrestamos.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1858936548,
-        "Kind": "Components.Component",
-        "Name": "RegistroPrestamos.Shared.SurveyPrompt",
-        "AssemblyName": "RegistroPrestamos",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RegistroPrestamos.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 164208851,
-        "Kind": "Components.Component",
-        "Name": "RegistroPrestamos.Shared.SurveyPrompt",
-        "AssemblyName": "RegistroPrestamos",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "RegistroPrestamos.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "RegistroPrestamos.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15163,11 +15110,6 @@
     {
       "FilePath": "c:\\Prog. Aplicada2\\RegistroPrestamos\\Pages\\R_Personas.razor",
       "TargetPath": "Pages\\R_Personas.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Prog. Aplicada2\\RegistroPrestamos\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {

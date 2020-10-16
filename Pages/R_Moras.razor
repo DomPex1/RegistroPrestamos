@@ -12,7 +12,7 @@
     <section class="form-register">
         <div class="card">
 
-            <div class="card-header">
+            <div class="card-header text-center bg-info text-white">
                 <h3>Registro de Moras</h3>
             </div>
 
@@ -21,12 +21,12 @@
                     <div class="form-row align-items-center">
                         <div class="col">
                             <div class="form-group">
-                                <label>Id</label>
+                                <label>Mora ID</label>
                                 <div class="input-group">
-                                    <InputNumber @bind-Value="mora.MoraId" class="form-control col-4" />
+                                    <InputNumber @bind-Value="mora.MoraId" class="form-control col-1" />
                                     <ValidationMessage For="(() => mora.MoraId)"></ValidationMessage>
                                     <div class="input-group-append">
-                                        <button type="button" class="btn btn-primary input-group-text" @onclick="Buscar">Buscar</button>
+                                        <button type="button" class="btn btn-info input-group-text" @onclick="Buscar">Buscar</button>
                                     </div>
                                 </div>
                             </div>
@@ -36,14 +36,14 @@
                     @*Fecha*@
                     <div class="form-group">
                         <label>Fecha</label>
-                        <InputDate @bind-Value="mora.Fecha" class="form-control" />
+                        <InputDate @bind-Value="mora.Fecha" class="form-control col-md-4" />
                         <ValidationMessage For="@(() => mora.Fecha)" />
                     </div>
 
                     <div class="form-group">
                         <div class="form-row">
                             <div class="col">
-                                <label>Id Prestamo</label>
+                                <label>prestamo ID</label>
                                 <select class="form-control" @bind="prestamoSeleccionado" @onclick="MostrarNombrePersona">
                                    @foreach (var item in listaPrestamo)
                                     {
@@ -62,7 +62,7 @@
                                 <div class="input-group">
                                     <InputNumber @bind-Value="valorColocado" class="form-control" />
                                     <div class="input-group-append">
-                                        <button type="button" class="btn btn-info" @onclick="AgregarMora">Agregar</button>
+                                        <button type="button" class="btn btn-dark" @onclick="AgregarMora">Agregar</button>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@
                     @*Total*@
                     <div class="form-group">
                         <label>Total</label>
-                        <InputNumber @bind-Value="mora.Total" class="form-control" readonly="true" />
+                        <InputNumber @bind-Value="mora.Total" class="form-control col-md-4" readonly="true" />
                         <ValidationMessage For="@(() => mora.Total)" />
                     </div>
 
@@ -107,7 +107,7 @@
 
             <div class="card-footer">
                 <div class="form-group text-center" display: inline-block>
-                    <button type="button" class="btn btn-lg btn-secondary" @onclick="Nuevo">Nuevo</button>
+                    <button type="button" class="btn btn-lg btn-primary" @onclick="Nuevo">Nuevo</button>
                     <button type="submit" class="btn btn-lg btn-success">Guardar</button>
                     <button type="button" class="btn btn-lg btn-danger" @onclick="Eliminar">Eliminar</button>
                 </div>
